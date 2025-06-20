@@ -13,6 +13,27 @@ export const COMPANY_INFO = {
 
 export const SERVICES = [
   {
+    id: "freight-forwarding",
+    title: "Freight Forwarding",
+    icon: "package",
+    description: "Shri Gajmukh Motors has a well-established global freight & trade network, offering a single-source solution to manage & transport freight.",
+    image: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+  },
+  {
+    id: "project-cargo",
+    title: "Project Cargo / ODC",
+    icon: "crane",
+    description: "Whether you are building a manufacturing plant, mining or drilling the earth, you will need to procure logistics transportation service.",
+    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+  },
+  {
+    id: "heavy-lift",
+    title: "Break Bulk / Heavy Lift",
+    icon: "weight",
+    description: "Cargo that is too big or too heavy to be loaded onto a flat rack container can be loaded directly onto the vessel.",
+    image: "https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+  },
+  {
     id: "curtain-carriers",
     title: "Curtain Carriers",
     icon: "truck",
@@ -32,27 +53,6 @@ export const SERVICES = [
     icon: "bike",
     description: "Our 2 wheeler carriers provide safe and efficient transport solutions for motorcycles and scooters with specialized handling.",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-  },
-  {
-    id: "freight-forwarding",
-    title: "Freight Forwarding",
-    icon: "package",
-    description: "Comprehensive freight forwarding solutions with our well-established network, offering single-source logistics management.",
-    image: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-  },
-  {
-    id: "project-cargo",
-    title: "Project Cargo / ODC",
-    icon: "crane",
-    description: "Specialized transportation for over-dimensional cargo and project logistics with expert handling and route planning.",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-  },
-  {
-    id: "heavy-lift",
-    title: "Break Bulk / Heavy Lift",
-    icon: "weight",
-    description: "Specialized handling for cargo too large or heavy for standard containers, with direct vessel loading capabilities.",
-    image: "https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
   },
 ];
 

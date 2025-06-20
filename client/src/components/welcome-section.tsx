@@ -16,7 +16,7 @@ export default function WelcomeSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-charcoal mb-6">
-              Welcome to <span className="text-electric-blue">{COMPANY_INFO.name}</span>
+              WELCOME TO <span className="text-electric-blue">{COMPANY_INFO.name.toUpperCase()}</span>
             </h2>
             <div className="w-24 h-1 bg-electric-blue mx-auto mb-8"></div>
           </div>
@@ -24,10 +24,10 @@ export default function WelcomeSection() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Welcome to the dynamic world of {COMPANY_INFO.fullName}, your one-stop destination for all automotive logistics needs. We are among the noted automotive logistics transportation services providers, established in India with a focus on delivering commercial lightweight vehicles to regional sales offices of Mahindra & Mahindra (M&M).
+                Welcome to the dynamic world of {COMPANY_INFO.fullName}, the one stop destination for all your logistic needs. We are among the noted Logistics Transportation Services providers, incepted in India. Our authentic and trusted services have helped us to achieve an unrivalled name for ourselves. With the help of our vast and well settled network throughout India, we are able to provide our customers with hassle free services such as Freight Forwarding, Project & Over Dimensional Cargo and Break Bulk & Heavy Lift services.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                With a dedicated team of {COMPANY_INFO.drivers} drivers and a management team with extensive industry experience, including long-term associations with M&M, our company ensures efficient logistics solutions. Our authentic and trusted services have helped us achieve an unrivalled reputation in the automotive logistics sector.
+                With a dedicated team of {COMPANY_INFO.drivers} drivers and a management team with extensive industry experience, we have established ourselves as a reliable partner in the logistics sector. Our commitment to excellence and customer satisfaction drives us to deliver superior transportation solutions across diverse industry verticals.
               </p>
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <Card className="text-center p-6 shadow-md">

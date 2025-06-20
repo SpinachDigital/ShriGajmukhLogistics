@@ -16,13 +16,11 @@ export default function Footer() {
           {/* Company Information */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-electric-blue rounded-lg flex items-center justify-center">
-                <Truck className="text-white text-xl" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold">{COMPANY_INFO.name}</h3>
-                <p className="text-gray-400">Pvt. Ltd.</p>
-              </div>
+              <img
+                src="/@assets/output-onlinepngtools-3-AzG7WyOJjacnoKZ2-Photoroom_1750422520317.png"
+                alt="Shri Gajmukh Motors Logo"
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               {COMPANY_INFO.tagline} through reliable automotive logistics services. Your trusted partner for comprehensive transportation solutions since {COMPANY_INFO.foundedYear}.

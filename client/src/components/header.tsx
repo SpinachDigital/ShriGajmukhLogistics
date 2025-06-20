@@ -26,13 +26,11 @@ export default function Header({ onOpenQuoteModal }: HeaderProps) {
         <nav className="flex items-center justify-between py-4">
           {/* Company Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-electric-blue rounded-lg flex items-center justify-center">
-              <Truck className="text-white text-xl" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-charcoal">{COMPANY_INFO.name}</h1>
-              <p className="text-sm text-gray-600">Pvt. Ltd.</p>
-            </div>
+            <img
+              src="/@assets/output-onlinepngtools-3-AzG7WyOJjacnoKZ2-Photoroom_1750422520317.png"
+              alt="Shri Gajmukh Motors Logo"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
