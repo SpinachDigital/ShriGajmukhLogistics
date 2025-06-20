@@ -107,7 +107,10 @@ This is a full-stack web application for Shri Gajmukh Motors Pvt. Ltd., an autom
 
 ```
 Changelog:
-- June 20, 2025. Initial setup
+- June 20, 2025. Initial setup with modern logistics website
+- June 20, 2025. Integrated company logo and updated brand colors to #0c256f
+- June 20, 2025. Restructured services to match Odicee Carriers format
+- June 20, 2025. Updated driver count to 500+ Professional Drivers
 ```
 
 ## User Preferences

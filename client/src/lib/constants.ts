@@ -5,10 +5,10 @@ export const COMPANY_INFO = {
   email: "info@shrigajmukh.com",
   address: "Maharashtra, India",
   foundedYear: 2021,
-  drivers: "250+",
+  drivers: "500+",
   experience: "15+",
   tagline: "Driving Excellence, Delivering Trust",
-  description: "Reliable automotive logistics services with a team of 250 drivers and extensive industry experience in delivering commercial lightweight vehicles.",
+  description: "Reliable automotive logistics services with a team of 500+ drivers and extensive industry experience in delivering commercial lightweight vehicles.",
 };
 
 export const SERVICES = [
