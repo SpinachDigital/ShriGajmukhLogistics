@@ -70,6 +70,9 @@ export class MemStorage implements IStorage {
       vehicleType: insertQuote.vehicleType ?? null,
       quantity: insertQuote.quantity ?? null,
       additionalInfo: insertQuote.additionalInfo ?? null,
+      estimatedPrice: insertQuote.estimatedPrice ?? null,
+      gamificationScore: insertQuote.gamificationScore ?? null,
+      completionBadge: insertQuote.completionBadge ?? null,
       createdAt: new Date(),
     };
     this.quoteRequests.set(id, quote);

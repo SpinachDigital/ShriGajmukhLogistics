@@ -93,6 +93,12 @@ export default function Header({ onOpenQuoteModal }: HeaderProps) {
             >
               Contact
             </button>
+            <button
+              onClick={() => scrollToSection("instant-quote")}
+              className="text-charcoal hover:text-electric-blue transition-colors font-medium"
+            >
+              Instant Quote
+            </button>
           </div>
 
           {/* CTA Buttons */}
@@ -157,6 +163,12 @@ export default function Header({ onOpenQuoteModal }: HeaderProps) {
               className="block w-full text-left py-2 text-charcoal hover:text-electric-blue"
             >
               Contact
+            </button>
+            <button
+              onClick={() => scrollToSection("instant-quote")}
+              className="block w-full text-left py-2 text-charcoal hover:text-electric-blue"
+            >
+              Instant Quote
             </button>
             <div className="pt-4 border-t border-gray-200 mt-4 space-y-2">
               <Button

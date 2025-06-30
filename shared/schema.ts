@@ -30,6 +30,9 @@ export const quoteRequests = pgTable("quote_requests", {
   vehicleType: text("vehicle_type"),
   quantity: text("quantity"),
   additionalInfo: text("additional_info"),
+  estimatedPrice: text("estimated_price"),
+  gamificationScore: text("gamification_score"),
+  completionBadge: text("completion_badge"),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 

@@ -6,6 +6,7 @@ import PhotoGallery from "@/components/photo-gallery";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import QuoteModal from "@/components/quote-modal";
+import InstantQuoteGamification from "@/components/instant-quote-gamification";
 import { useState } from "react";
 
 export default function Home() {
@@ -21,6 +22,18 @@ export default function Home() {
       <WelcomeSection />
       <ServicesSection onOpenQuoteModal={openQuoteModal} />
       <PhotoGallery />
+      <section id="instant-quote" className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-charcoal mb-6">Instant Quote Game</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Get an instant quote while earning points and badges! Complete our interactive quote game and unlock personalized pricing.
+            </p>
+            <div className="w-24 h-1 bg-electric-blue mx-auto mt-8"></div>
+          </div>
+          <InstantQuoteGamification />
+        </div>
+      </section>
       <ContactSection />
       <Footer />
       <QuoteModal isOpen={isQuoteModalOpen} onClose={closeQuoteModal} />
