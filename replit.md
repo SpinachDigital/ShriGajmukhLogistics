@@ -2,50 +2,48 @@
 
 ## Overview
 
-This is a full-stack web application for Shri Gajmukh Motors Pvt. Ltd., an automotive logistics company. The application is a modern single-page application built with React and TypeScript on the frontend, Express.js on the backend, and uses PostgreSQL for data storage. The system provides a professional company website with contact forms, quote request functionality, and a photo gallery showcasing the company's services.
+This is a full-stack web application for Shri Gajmukh Motors Pvt. Ltd., an automotive logistics company. The application has been converted from React/Node.js to a pure PHP implementation, providing a professional company website with contact forms, quote request functionality, and a photo gallery showcasing the company's services. The system uses modern PHP 8.2 with PostgreSQL for data storage.
 
 ## System Architecture
 
-### Frontend Architecture
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite for fast development and optimized production builds
-- **Routing**: Wouter for lightweight client-side routing
-- **UI Components**: Shadcn/ui component library built on Radix UI primitives
-- **Styling**: Tailwind CSS with custom brand colors and theming
-- **State Management**: TanStack Query (React Query) for server state management
-- **Forms**: React Hook Form with Zod validation
+### Application Architecture
+- **Language**: PHP 8.2 with built-in development server
+- **Frontend**: Server-side rendered HTML with Tailwind CSS
+- **JavaScript**: Vanilla JavaScript for interactive functionality
+- **Styling**: Tailwind CSS CDN with custom brand colors (#0c256f primary blue)
+- **Icons**: Font Awesome for UI icons and visual elements
+- **Responsive Design**: Mobile-first responsive design approach
 
 ### Backend Architecture
-- **Runtime**: Node.js with Express.js framework
-- **Language**: TypeScript with ES modules
-- **API Design**: RESTful API endpoints for contact and quote submissions
-- **Validation**: Zod schemas for request validation
-- **Database**: PostgreSQL with Drizzle ORM
-- **Session Management**: Express sessions with PostgreSQL store
+- **Runtime**: PHP 8.2 built-in development server
+- **API Design**: Single-file PHP application with POST endpoint handling
+- **Database**: PostgreSQL with PDO for database operations
+- **Session Management**: PHP native sessions
+- **Form Handling**: Native PHP form processing with validation
 
 ### Database Architecture
 - **Primary Database**: PostgreSQL
-- **ORM**: Drizzle ORM for type-safe database queries
-- **Migration System**: Drizzle Kit for database schema migrations
-- **Connection**: Neon Database serverless driver for PostgreSQL
+- **Connection**: PHP PDO with PostgreSQL driver
+- **Tables**: contact_inquiries, quote_requests (using existing schema)
+- **Fallback**: In-memory storage when database is unavailable
 
 ## Key Components
 
-### Frontend Components
+### Application Components
 - **Header**: Navigation with mobile-responsive menu and company branding
-- **Hero Slider**: Image carousel with call-to-action buttons
-- **Welcome Section**: Company introduction with statistics
-- **Services Section**: Grid layout showcasing available services
+- **Hero Slider**: JavaScript-powered image carousel with auto-advance
+- **Welcome Section**: Company introduction with statistics (58+ years, 500+ drivers)
+- **Services Section**: 8 service cards with hover effects
 - **Photo Gallery**: Interactive image gallery with modal viewing
-- **Contact Section**: Contact form with service selection
+- **Contact Section**: Contact form with AJAX submission
 - **Quote Modal**: Detailed quote request form
-- **Footer**: Company information and social media links
+- **Footer**: Company information and contact details
 
-### Backend Services
-- **Contact API**: Handles general contact inquiries
-- **Quote API**: Processes detailed quote requests
-- **Storage Layer**: Database operations with memory fallback
-- **Error Handling**: Centralized error handling with proper HTTP status codes
+### PHP Endpoints
+- **Contact Handler**: Processes contact form submissions
+- **Quote Handler**: Processes quote request submissions
+- **Database Layer**: PDO-based PostgreSQL operations with fallback
+- **Session Management**: PHP session handling for user interactions
 
 ### Database Schema
 - **Users Table**: User authentication (prepared for future admin features)
@@ -111,6 +109,10 @@ Changelog:
 - June 20, 2025. Integrated company logo and updated brand colors to #0c256f
 - June 20, 2025. Restructured services to match Odicee Carriers format
 - June 20, 2025. Updated driver count to 500+ Professional Drivers
+- June 20, 2025. Added Instant Quote Gamification Feature
+- July 1, 2025. Converted entire application from React/Node.js to PHP
+- July 1, 2025. Removed Instant Quote Gamification per user request
+- July 1, 2025. Implemented single-file PHP application with Tailwind CSS
 ```
 
 ## User Preferences
